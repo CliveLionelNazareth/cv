@@ -1,4 +1,4 @@
-
+/* Used https://colorhunt.co/palette/273174 as the palette for this site */
 
 body {
   text-align: center;
@@ -78,14 +78,14 @@ li {
   margin-top: 0;
   padding-top: 5rem;
   font-size: 5rem;
-  font-family: 'Montserrat', sans-serif;
-  color: #11999E
+  font-family: 'PT Serif', serif;
+  color: #325288;
 }
 
 
 .top_container {
    height: 50rem ;
-   background-color: black;
+   background-color: #325288;
    /* background-image: linear-gradient(#cfebfd, #ffe9ec); */
    /* background-image: url("https://knowledge.wharton.upenn.edu/wp-content/uploads/2020/05/Women-in-data-science-1024x440.jpg");
   background-size: 100% 100%; */
@@ -108,7 +108,7 @@ li {
   margin: 0 auto auto auto;
   padding-bottom: 2%;
   font-weight: normal;
-  font-family: 'Pattaya', sans-serif;
+  font-family: 'PT Serif', serif;
   font-size: 4rem;
   width: 90%;
   color: #F6C700;
@@ -119,8 +119,8 @@ li {
 
 
 .about_me_section {
-  background-color: #ffe9ec; /* For browsers that do not support gradients */
-  background-image: linear-gradient(#ffe9ec, #e9fce9);
+  /* background-color: #ffe9ec;
+  background-image: linear-gradient(#ffe9ec, #e9fce9); */
 }
 
 
@@ -129,9 +129,9 @@ li {
   position: relative;
   margin: auto;
   width: 40%;
-  font-weight: bold;
   font-size: 200%;
-  font-family: 'Merriweather', serif;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 500;
   padding-bottom: 15%;
 }
 
@@ -145,48 +145,63 @@ li {
 
 
 .skills_section {
-  background-color: #e9fce9; /* For browsers that do not support gradients */
-  background-image: linear-gradient(#e9fce9, #dccec0);
+  /* background-color: #e9fce9;
+  background-image: linear-gradient(#e9fce9, #dccec0); */
 }
 
 .First_Column_Table{
-  padding-right: 20rem;
+  padding-right: 5rem;
 }
 
 .Table_Images {
-  width: 19rem;
+  width: 16rem;
+  height: 12rem;
 }
 
 .Table_Text {
-  font-size: 5rem;
+  font-size: 2rem;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 500;
 }
 
 
 
 
 .Experience_Section {
-  background-color: #dccec0; /* For browsers that do not support gradients */
-  background-image: linear-gradient(#dccec0, #FFFDD0);
+  /* background-color: #dccec0;
+  background-image: linear-gradient(#dccec0, #FFFDD0); */
 }
 
 
-.Job_Name_Company {
-  font-size: 4rem;
-  color: #545454;
+.Job_Name {
+  font-size: 2.4rem;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 700;
+  padding-bottom: 0;
+  margin-bottom: 0;
 }
+
+.Job_Company {
+  margin-top: 0;
+  padding-top: 0;
+  font-size: 2.4rem;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 700;
+}
+
 
 
 .CIBC_Image {
   width: 15%;
   float: right;
-  margin-right: 10%;
+  margin-right: 2%;
   padding-left: 2%;
 }
 
 .Cambridge_Image {
   width: 15%;
   float: right;
-  margin-right: 10%;
+  margin-right: 2%;
   padding-left: 2%;
 }
 
@@ -194,10 +209,10 @@ li {
   text-align: left;
   position: relative;
   margin: auto;
-  font-family: 'Merriweather', serif;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 500;
+  font-size: 200%;
   /* width: 60%; */
-  font-size: 1.9rem;
-  font-weight: bold;
 }
 
 
@@ -205,8 +220,12 @@ li {
   clear: both;
 }
 
+.middle_container {
+  background-image: linear-gradient(#f4eee8, #f5cebe);
+}
+
 .bottom-container {
-  background-color: #66BFBF;
+  background-color: #114e60;
   padding: 50px 0 20px;
   margin: 0;
   border: none;
@@ -216,16 +235,18 @@ li {
   color: #f5f5f5;
   padding-bottom: 2%;
   margin: 0 auto 0 auto;
-  font-family: 'Montserrat', sans-serif;
-  font-size: 2rem;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 500;
+  font-size: 1.5rem;
 }
 
 
 .Social_Line {
   color: #f5f5f5;
   margin: 0 auto 0 auto;
-  font-size: 2rem;
-  font-family: 'Montserrat', sans-serif;
+  font-size: 1.5rem;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 500;
 }
 
 .GitHub_Link {
@@ -233,8 +254,9 @@ li {
 }
 .Personal_Link {
   color: #FFFDD0;
-  font-size: 2rem;
-  font-family: 'Montserrat', sans-serif;
+  font-size: 1.5rem;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 500;
 }
 
 
@@ -244,7 +266,7 @@ li {
   color: #FFFDD0;
   text-decoration: underline;
   font-family: 'Montserrat', sans-serif;
-  font-size: 2rem;
+  font-size: 1.5rem;
 }
 
 .copy_right {
@@ -299,11 +321,11 @@ li {
     opacity:1;
   }
 }
-
+/*
 @-ms-keyframes fadeIn {
   0% {
     opacity:0;
   }
   100% {
     opacity:1;
-}
+} */
