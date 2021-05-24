@@ -49,6 +49,31 @@ li {
   left: 0;
 }
 
+.fa-linkedin {
+  background: #007bb5;
+  color: white;
+}
+
+.fa-envelope {
+  background: white;
+  color: red;
+}
+
+.fa {
+  padding: 50px;
+  font-size: 50px;
+  width: 20px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+  border-radius: 50%;
+}
+
+.fa:hover {
+    opacity: 0.7;
+}
+
+
 .Sections_Titles {
   margin-top: 0;
   padding-top: 5rem;
@@ -60,19 +85,15 @@ li {
 
 .top_container {
    height: 50rem ;
-   background-color: black; /* For browsers that do not support gradients */
+   background-color: black;
    /* background-image: linear-gradient(#cfebfd, #ffe9ec); */
-
-
+   /* background-image: url("https://knowledge.wharton.upenn.edu/wp-content/uploads/2020/05/Women-in-data-science-1024x440.jpg");
+  background-size: 100% 100%; */
 }
-
-
-
-
 
 .Introduction_Name {
   position: relative;
-  padding-top: 20rem;
+  padding-top: 15rem;
   border: 0;
   margin: 0;
   font-weight: bold;
@@ -85,6 +106,7 @@ li {
 
 .Introduction_Description {
   margin: 0 auto auto auto;
+  padding-bottom: 2%;
   font-weight: normal;
   font-family: 'Pattaya', sans-serif;
   font-size: 4rem;
@@ -192,13 +214,14 @@ li {
 
 .Get_in_Touch {
   color: #f5f5f5;
+  padding-bottom: 2%;
   margin: 0 auto 0 auto;
   font-family: 'Montserrat', sans-serif;
   font-size: 2rem;
 }
 
 
-.GitHub_Line {
+.Social_Line {
   color: #f5f5f5;
   margin: 0 auto 0 auto;
   font-size: 2rem;
@@ -230,6 +253,7 @@ li {
   padding-top: 40px;
   font-size: 0.75rem;
 }
+
 
 
 
