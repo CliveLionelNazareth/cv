@@ -1,4 +1,5 @@
-
+/* Used https://colorhunt.co/palette/273174 as the palette for this site */
+/* Used https://www.fontpair.co/pairing/poppins-pt-serif as the font for this site */
 body {
   text-align: center;
   margin: 0;
@@ -29,6 +30,8 @@ li {
   padding-left: 5%;
   padding-bottom: 4%;
 }
+
+
 
 
 
@@ -151,6 +154,9 @@ li {
 .First_Column_Table{
   padding-right: 5rem;
 }
+
+
+
 
 .Table_Images {
   width: 16rem;
@@ -275,7 +281,36 @@ li {
   font-size: 0.75rem;
 }
 
+/* Smartphones (portrait and landscape) ----------- */
+@media only screen
+and (max-device-width : 1024px) {
 
+  .First_Column_Table{
+    padding-right: 5%;
+  }
+  .Table_Images {
+    width: 8rem;
+    height: 6rem;
+  }
+
+  .Table_Text {
+    font-size: 2rem;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+  }
+
+  .Star {
+    font-size: 1rem;
+  }
+
+  .Job_Name {
+    font-size: 2rem;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+    padding-bottom: 0;
+    margin-bottom: 0;
+  }
+}
 
 
 .fade-in {
